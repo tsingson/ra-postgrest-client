@@ -51,6 +51,17 @@ export default App;
 
 ```
 
+## Build
+
+clone the repo and build
+```
+git clone https://github.com/tsingson/ra-postgrest-client
+cd ./ra-postgrest-client
+make build
+```
+
+
+
 ## License
 
 This library is licensed under the [MIT Licence](LICENSE)

@@ -1,9 +1,9 @@
 {
 	"name": "ra-postgrest-client",
-	"version": "0.1.0",
+	"version": "0.1.2",
 	"description":
 		"dataProvider for [react-admin](https://marmelab.com/react-admin/) ( admin-on-rest 2.0 ) to access [postgrest](https://postgrest.com) REST service",
-	"main": "index.js",
+	"main": "lib/index.js",
 	"repository": "https://github.com/tsingson/ra-postgrest-client",
 	"author": "tsingsonqin <tsingson@gmail.com>",
 	"license": "MIT",
