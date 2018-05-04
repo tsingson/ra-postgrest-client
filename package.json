@@ -1,0 +1,54 @@
+{
+	"name": "my-new-project",
+	"version": "1.0.0",
+	"description": "My New Project description.",
+	"main": "lib/index.js",
+	"repository": {
+		"url": "git+https://github.com/tsingson/ra-postgres-client.git",
+		"type": "git"
+	},
+	"author": "TsingsonQin <tsingson@gmail.com>",
+	"license": "MIT",
+	"files": ["LICENSE", "*.md", "lib", "src"],
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"lint": "eslint --ignore-path .gitignore src/*.js"
+	},
+	"keywords": [
+		"reactjs",
+		"react",
+		"rest",
+		"postgrest",
+		"local",
+		"react-admin",
+		"admin-on-rest"
+	],
+	"bugs": {
+		"url": "https://github.com/tsingson/ra-postgres-client/issues"
+	},
+	"homepage": "https://github.com/tsingson/ra-postgres-client#readme",
+		"dependencies": {
+		"ra-core": "^2.0.0-RC2",
+		"react-admin": "^2.0.0-RC2"
+	},
+	"devDependencies": {
+		"babel-cli": "^6.18.0",
+		"babel-eslint": "^7.2.3",
+		"babel-plugin-add-module-exports": "^0.2.1",
+		"babel-preset-es2015": "^6.18.0",
+		"babel-preset-stage-0": "^6.16.0",
+		"eslint": "^3.19.0",
+		"eslint-config-airbnb": "^15.0.1",
+		"eslint-plugin-import": "^2.3.0",
+		"eslint-plugin-jsx-a11y": "^5.0.3",
+		"eslint-plugin-react": "^7.0.1"
+	}
+	"eslintConfig": {
+		"parser": "babel-eslint",
+		"extends": "airbnb",
+		"env": {
+			"browser": true,
+			"es6": true
+		}
+	}
+}
