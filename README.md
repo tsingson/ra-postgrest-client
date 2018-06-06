@@ -4,9 +4,17 @@
 
 thanks a lot to [tomberek](https://github.com/tomberek)
 
-For using [postgREST](https://github.com/begriffs/postgrest) with [react-admin](https://github.com/marmelab/react-admin), use the `postgrestClient` function to convert React-Admin's REST dialect into one compatible with postgREST.
+For using [PostgRest](https://github.com/PostgREST/postgrest) with [react-admin](https://github.com/marmelab/react-admin), use the `postgrestClient` function to convert React-Admin's REST dialect into one compatible with postgREST.
+
+## motivation
+
+reference to [postgrest-guide](https://github.com/tsingson/postgrest-guide)
+
+in a new project, we try to replace Admin Panel with new [React-Admin](https://github.com/marmelab/react-admin), this repo is bridge to [PostgRest](https://github.com/PostgREST/postgrest) 
+
 
 ## some New 
+
 * support React-Admin ( Admin-On-Rest 2.0 ) only 
 * support postgRest  4.4 with pgjwt ( generate JWT via pgplsql ) , and will add authProvider for postgRest soon
 * support multiple item to delete
@@ -59,6 +67,13 @@ git clone https://github.com/tsingson/ra-postgrest-client
 cd ./ra-postgrest-client
 make build
 ```
+
+
+
+## Work in Progress
+
+**Do not use in production**
+this repo is work in progress yet.......
 
 
 
