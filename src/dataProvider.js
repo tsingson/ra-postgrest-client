@@ -8,7 +8,7 @@ import {
 	GET_ONE,
 	UPDATE
 } from "ra-core/lib/dataFetchActions";
-
+import { stringify } from "query-string";
 /**
  * Maps react-admin queries to a postgrest API
  *
